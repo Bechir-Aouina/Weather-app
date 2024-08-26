@@ -82,6 +82,7 @@ function processiconDay(i) {
     rain: "🌧️",
     fog: "🌁",
     wind: "🍃",
+    cloudy:"☁️",
     "partly-cloudy-day": "⛅",
     "clear-day": "☀️",
   };
@@ -93,6 +94,7 @@ function processiconNight(i) {
     rain: "🌧️",
     fog: "🌁",
     wind: "🍃",
+    cloudy:"☁️",
     "partly-cloudy-night": "🌙☁️",
     "clear-night": "🌕",
   };
