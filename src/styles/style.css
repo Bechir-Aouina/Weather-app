@@ -6,6 +6,9 @@
   box-sizing: border-box;
   font-family: "Kanit", sans-serif;
 }
+body{
+    background-color: #f8f8f8;
+}
 .container {
   min-height: 100vh;
   display: flex;
@@ -43,10 +46,20 @@ input:focus{
  
   width: 400px;
   height: 700px;
-  background-color: #73beff;
+ 
   border-radius:  0px 0px 20px 20px;
   color: #fff;
   padding: 10px;
+}
+.cont.day{
+     background-color: #73beff;
+       transition: background-color 1.5s ease;
+    opacity: 1;
+}
+.cont.night{
+    background-color:#5e5f61;
+    opacity: 0.8; 
+    transition: background-color 1.5s ease;
 }
 .header {
   display: flex;
@@ -102,4 +115,11 @@ font-size: 0.8rem;
 }
 i{
     cursor: pointer;
+}
+.toggle{
+    cursor: pointer;
+}
+.toggle:hover{
+   color: #c4c3c3;
+   transition: .5s ease;
 }
